@@ -5,7 +5,9 @@
 ## Setup
 
 ```shell
-conda create --name myenv --file spec-file.txt
-source activate myenv
-jupyter notebook
+$ git clone git@github.com:satoshikumano/svm-nyumon.git
+$ cd svm-nyumon
+$ conda create --name myenv --file spec-file.txt
+$ source activate myenv
+$ jupyter notebook
 ```
